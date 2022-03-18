@@ -1,0 +1,15 @@
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Ice Hu",
+    "subscribedToChannel": "ice network"
+}
+
+###
+
+GET http://localhost:3000/subscribers
+
+###
+
+DELETE http://localhost:3000/subscribers/62338d1d8f87eb4157c1827b
